@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		146432641543C7A600F4A74B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146432631543C7A600F4A74B /* UIKit.framework */; };
+		146432661543C7A600F4A74B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146432651543C7A600F4A74B /* Foundation.framework */; };
+		146432681543C7A600F4A74B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146432671543C7A600F4A74B /* CoreGraphics.framework */; };
+		1464326E1543C7A600F4A74B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1464326C1543C7A600F4A74B /* InfoPlist.strings */; };
+		146432701543C7A600F4A74B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1464326F1543C7A600F4A74B /* main.m */; };
+		146432741543C7A600F4A74B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 146432731543C7A600F4A74B /* AppDelegate.m */; };
+		146432771543C7A600F4A74B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146432751543C7A600F4A74B /* MainStoryboard.storyboard */; };
+		1464327A1543C7A600F4A74B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146432791543C7A600F4A74B /* ViewController.m */; };
+		146432811543CD4F00F4A74B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146432801543CD4F00F4A74B /* CoreImage.framework */; };
+		146432831543CFCF00F4A74B /* ojisan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 146432821543CFCF00F4A74B /* ojisan.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1464325F1543C7A600F4A74B /* sepiaFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sepiaFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		146432631543C7A600F4A74B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		146432651543C7A600F4A74B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		146432671543C7A600F4A74B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1464326B1543C7A600F4A74B /* sepiaFilter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sepiaFilter-Info.plist"; sourceTree = "<group>"; };
+		1464326D1543C7A600F4A74B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1464326F1543C7A600F4A74B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		146432711543C7A600F4A74B /* sepiaFilter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sepiaFilter-Prefix.pch"; sourceTree = "<group>"; };
+		146432721543C7A600F4A74B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		146432731543C7A600F4A74B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		146432761543C7A600F4A74B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		146432781543C7A600F4A74B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		146432791543C7A600F4A74B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		146432801543CD4F00F4A74B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		146432821543CFCF00F4A74B /* ojisan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ojisan.jpg; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1464325C1543C7A600F4A74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146432811543CD4F00F4A74B /* CoreImage.framework in Frameworks */,
+				146432641543C7A600F4A74B /* UIKit.framework in Frameworks */,
+				146432661543C7A600F4A74B /* Foundation.framework in Frameworks */,
+				146432681543C7A600F4A74B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146432541543C7A600F4A74B = {
+			isa = PBXGroup;
+			children = (
+				146432801543CD4F00F4A74B /* CoreImage.framework */,
+				146432691543C7A600F4A74B /* sepiaFilter */,
+				146432621543C7A600F4A74B /* Frameworks */,
+				146432601543C7A600F4A74B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		146432601543C7A600F4A74B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1464325F1543C7A600F4A74B /* sepiaFilter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		146432621543C7A600F4A74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				146432631543C7A600F4A74B /* UIKit.framework */,
+				146432651543C7A600F4A74B /* Foundation.framework */,
+				146432671543C7A600F4A74B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		146432691543C7A600F4A74B /* sepiaFilter */ = {
+			isa = PBXGroup;
+			children = (
+				146432721543C7A600F4A74B /* AppDelegate.h */,
+				146432731543C7A600F4A74B /* AppDelegate.m */,
+				146432751543C7A600F4A74B /* MainStoryboard.storyboard */,
+				146432781543C7A600F4A74B /* ViewController.h */,
+				146432791543C7A600F4A74B /* ViewController.m */,
+				1464326A1543C7A600F4A74B /* Supporting Files */,
+			);
+			path = sepiaFilter;
+			sourceTree = "<group>";
+		};
+		1464326A1543C7A600F4A74B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				146432821543CFCF00F4A74B /* ojisan.jpg */,
+				1464326B1543C7A600F4A74B /* sepiaFilter-Info.plist */,
+				1464326C1543C7A600F4A74B /* InfoPlist.strings */,
+				1464326F1543C7A600F4A74B /* main.m */,
+				146432711543C7A600F4A74B /* sepiaFilter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1464325E1543C7A600F4A74B /* sepiaFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1464327D1543C7A600F4A74B /* Build configuration list for PBXNativeTarget "sepiaFilter" */;
+			buildPhases = (
+				1464325B1543C7A600F4A74B /* Sources */,
+				1464325C1543C7A600F4A74B /* Frameworks */,
+				1464325D1543C7A600F4A74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sepiaFilter;
+			productName = sepiaFilter;
+			productReference = 1464325F1543C7A600F4A74B /* sepiaFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146432561543C7A600F4A74B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 146432591543C7A600F4A74B /* Build configuration list for PBXProject "sepiaFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 146432541543C7A600F4A74B;
+			productRefGroup = 146432601543C7A600F4A74B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1464325E1543C7A600F4A74B /* sepiaFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1464325D1543C7A600F4A74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1464326E1543C7A600F4A74B /* InfoPlist.strings in Resources */,
+				146432771543C7A600F4A74B /* MainStoryboard.storyboard in Resources */,
+				146432831543CFCF00F4A74B /* ojisan.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1464325B1543C7A600F4A74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146432701543C7A600F4A74B /* main.m in Sources */,
+				146432741543C7A600F4A74B /* AppDelegate.m in Sources */,
+				1464327A1543C7A600F4A74B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1464326C1543C7A600F4A74B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1464326D1543C7A600F4A74B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		146432751543C7A600F4A74B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146432761543C7A600F4A74B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1464327B1543C7A600F4A74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1464327C1543C7A600F4A74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1464327E1543C7A600F4A74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sepiaFilter/sepiaFilter-Prefix.pch";
+				INFOPLIST_FILE = "sepiaFilter/sepiaFilter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1464327F1543C7A600F4A74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sepiaFilter/sepiaFilter-Prefix.pch";
+				INFOPLIST_FILE = "sepiaFilter/sepiaFilter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146432591543C7A600F4A74B /* Build configuration list for PBXProject "sepiaFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1464327B1543C7A600F4A74B /* Debug */,
+				1464327C1543C7A600F4A74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1464327D1543C7A600F4A74B /* Build configuration list for PBXNativeTarget "sepiaFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1464327E1543C7A600F4A74B /* Debug */,
+				1464327F1543C7A600F4A74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 146432561543C7A600F4A74B /* Project object */;
+}
